@@ -5,9 +5,12 @@ System.Console.WriteLine("Введите число ");
 string number = Console.ReadLine();
 int numberOne = Convert.ToInt32(number);
 
-if(numberOne > 100 && numberOne < 1000){
+if (numberOne > 100 && numberOne < 1000)
+{
     System.Console.WriteLine("Число трехзначное");
-}else{
+}
+else
+{
     System.Console.WriteLine("Число не трехзначное");
 }
 
